@@ -28,7 +28,7 @@ function PasswordValidator() {
           onChange={onChangePassword}
         />
         <ErrorMsg>
-          {!isValid() && "Your password must be atleast 8 characters"}
+          {!isValid() && "Your paswd must be atleast 8 characters"}
         </ErrorMsg>
       </Card>
     </MainConatiner>
